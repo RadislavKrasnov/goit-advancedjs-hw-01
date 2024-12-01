@@ -1,5 +1,5 @@
 import images from './images';
-import SimpleLightbox from "simplelightbox";
+import SimpleLightbox from 'simplelightbox';
 
 const createGallery = () => {
   const galleryList = document.querySelector('.gallery');
@@ -29,6 +29,6 @@ const createGallery = () => {
 createGallery();
 
 var lightbox = new SimpleLightbox('.gallery a', {
-    captionsData: 'alt',
-    captionDelay: 250
+  captionsData: 'alt',
+  captionDelay: 250,
 });
